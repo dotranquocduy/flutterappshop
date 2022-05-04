@@ -32,7 +32,7 @@ class _CheckOutSingleProductState extends State<CheckOutSingleProduct> {
   Widget _buildImage() {
     return Container(
       height: height * 0.1 + 50,
-      width: width * 0.3,
+      width: width * 0.2,
       decoration: BoxDecoration(
         image: DecorationImage(
           fit: BoxFit.fill,
@@ -44,8 +44,10 @@ class _CheckOutSingleProductState extends State<CheckOutSingleProduct> {
 
   Widget _buildNameAndClosePart() {
     return Container(
-      height: 30,
+      height: 31,
+    
       child: Row(
+        
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(
@@ -59,13 +61,15 @@ class _CheckOutSingleProductState extends State<CheckOutSingleProduct> {
             },
           ),
         ],
+        
       ),
     );
   }
 
   Widget _buildColorAndSizePart() {
     return Container(
-      width: width * 0.4,
+      width: width * 0.5,
+    
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -75,7 +79,8 @@ class _CheckOutSingleProductState extends State<CheckOutSingleProduct> {
           ),
           Text(
             widget.size,
-            style: myStyle,
+            style: myStyle,         
+            textAlign: TextAlign.right,
           )
         ],
       ),

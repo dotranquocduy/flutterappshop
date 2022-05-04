@@ -198,7 +198,7 @@ class _HomePageState extends State<HomePage> {
           Navigator.of(context).push(
             MaterialPageRoute(
               builder: (ctx) => ListProduct(
-                name: "footbal",
+                name: "Nike",
                 snapShot: dress,
               ),
             ),
@@ -219,7 +219,7 @@ class _HomePageState extends State<HomePage> {
           Navigator.of(context).push(
             MaterialPageRoute(
               builder: (ctx) => ListProduct(
-                name: "Basketball",
+                name: "Addidas",
                 snapShot: shirts,
               ),
             ),
@@ -240,7 +240,7 @@ class _HomePageState extends State<HomePage> {
           Navigator.of(context).push(
             MaterialPageRoute(
               builder: (ctx) => ListProduct(
-                name: "Jordan",
+                name: "Vans",
                 snapShot: shoes,
               ),
             ),
@@ -264,7 +264,7 @@ class _HomePageState extends State<HomePage> {
           Navigator.of(context).push(
             MaterialPageRoute(
               builder: (ctx) => ListProduct(
-                name: "Running",
+                name: "New Banlance",
                 snapShot: pant,
               ),
             ),
@@ -288,7 +288,7 @@ class _HomePageState extends State<HomePage> {
           Navigator.of(context).push(
             MaterialPageRoute(
               builder: (ctx) => ListProduct(
-                name: "Gym",
+                name: "Puma",
                 snapShot: tie,
               ),
             ),
